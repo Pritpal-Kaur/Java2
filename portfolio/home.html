@@ -45,6 +45,23 @@ Most recent revision:
 	  background-color: #e4c3ad;
 	  }
 	  
+	  /* Creating article layouts */
+        .clear-float {
+            clear:both;
+        }
+
+        article img {
+            float:left;
+        }
+
+        .right-content {
+            float:left;
+        }
+
+        article {
+            margin-bottom: 16px;
+        }
+	  
 </style>
 
 </head>
@@ -61,6 +78,7 @@ Most recent revision:
 <p><a href="projects.html">Projects</a></p>
 <p><a href="contact.html">Contact Me</a></p>
 <p><a href="testimonials.html">Testimonials</a></p>
+<div class="clear-float"></div>
 </nav>
 <hr />
 
@@ -68,13 +86,14 @@ Most recent revision:
 
 <article class="border" id="about-me"> <!-- This is the first chunk inside the section element. -->
 <h2><em>About Me</em></h2>
-<img src="C:\Projects\Java2\portfolio\images\Pic.jpg" alt="Portrait of Pritpal Kaur">
+<img src="C:\Projects\Java2\portfolio\images\Pic.jpg" alt="Portrait of Pritpal Kaur" width="250" />
 <p>
 My name is Pritpal Kaur. I work full time at Amazon as a <strong> Problem Solver </strong> in Pick Department. 
 </p>
 <p>
 I have Bachelor's degree in Electronics and Communication. I have post degree diploma in Business Administration. Currently, I am pursuing one year course in Java Software Development Program.
 </p>
+<div class="clear-float"></div>
 </article>
 
 <article id="past-experiences"> <!-- This is the second chunk inside the section element. -->
@@ -108,7 +127,8 @@ I have Bachelor's degree in Electronics and Communication. I have post degree di
 
 <article id="hobbies"> <!-- This is the third chunk inside the section element. -->
 <h2><em>Hobbies</em></h2>
-<img src="C:\Projects\Java2\portfolio\images\music.jpg"alt="Music Photo">
+<img src="C:\Projects\Java2\portfolio\images\music.jpg"alt="Music Photo" width="250"/>
+<div class="right-content">
 <ul>
     <li>Music</li>
 	
@@ -141,7 +161,7 @@ I have Bachelor's degree in Electronics and Communication. I have post degree di
 </ul>
 </ul>	  
 </article>
-
+<div class="clear-float"></div>
 </section>
 
 <footer> <!-- The footer is a block at the botom of the page. -->
