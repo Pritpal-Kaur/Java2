@@ -28,3 +28,13 @@ $("#myModal .btn-primary").onclick {
    $("button").hide();
    $("#conf-alert").show();
 });
+
+function myFunction() {
+	let text;
+	if(document.getElementById("validationCustom03").validity.rangeOverflow) {
+		text="Invalid phone number";
+	} else if(document.getElementById("validationCustom03").validity.rangeUnderflow) {
+		text="Invalid phone number";
+	} else {
+		text="correct input";
+	}
