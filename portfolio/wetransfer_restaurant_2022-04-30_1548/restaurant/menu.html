@@ -1,0 +1,160 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- JavaScript libraries required for components -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+   integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+   integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!doctype html>
+<! --
+Name: Pritpal Kaur
+Date Created: April 30, 2022
+Most recent revision:
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="restaurantStyle.css" rel="stylesheet">
+    <title>Resturant</title>
+    <style>
+
+      /* menu */
+      .menu-container {
+          padding:5rem 0;
+          /* height: calc(100vh - 260px); */
+      }
+      .menu-container .menu-card{
+          color:#fff;
+      }
+      .menu-container .menu-card h2{
+          color:#c9ab81;
+          font-size:22px;
+          font-weight:600;
+      }
+      .menu-container .menu-card p{
+          font-size:18px;
+          font-weight:300;
+      }
+      @media screen and (max-width: 576px){
+        .menu-container {
+          padding:3rem 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+          <div class="container">         
+              <div class="logo text-center py-3">
+                  Restaurant Name
+              </div>
+          </div>
+          <div class="h-nav">
+              <div class="container">
+                  <ul class="nav nav-pills py-2">
+                    <li class="nav-item">
+                      <a class="nav-link active desk" href="home.html">Home</a>
+                      <a class="nav-link active mob" href="home.html"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="menu.html">Menu</a></li>
+                        <li> <a class="dropdown-item" href="beverage.html">Beverages</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="contactus.html">Contact</a>
+                    </li>
+                  </ul> 
+              </div>
+          </div>
+      </header>
+
+      
+          
+              <div class="menu-container ">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4 mb-4">
+                          <div class="menu-card text-center">
+                            <h2>Burger and Fries</h2>
+                            <p>An American Classic! <br> you choice - with or without cheese pikle,onion,tomato , and lettuce served with our
+                              famous thick cut french fries<br>$7.95
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <div class="menu-card text-center">
+                            <h2>Hot Dog and Chips</h2>
+                            <p>AA Summer Classic! <br> Your choice - white or wheat bun
+                              <br>Relish, mustard, and ketchup<br>Served with our house-made chips <br>$7.95
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <div class="menu-card text-center">
+                            <h2>Italian Sausage and Peppers</h2>
+                            <p>An All-Time Favorite! <br> Your choice- mild or spicy Cole Slaw<br>
+							Served with garlic mashers<br>$10.95
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <div class="menu-card text-center">
+                            <h2>Tenderloin Sandwich and Chips</h2>
+                            <p>Really Hits the Spot! <br> Plain or Sesame Seed Bun<br> 
+							Pickle, onion, tomato, and lettuce <br>
+							Served with our house-made chips <br> $8.95
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <div class="menu-card text-center">
+                            <h2>House Salad</h2>
+                            <p>On the Lighter Side <br> Your choice-with or without cheese <br>
+							Iceberg lettuce, tomatoes, peppers <br>
+							Thousand Island or Ranch <br>
+							Dressing Served with a dinner roll <br>
+							$6.95
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <div class="menu-card text-center">
+                            <h2>Brisket Sandwich and Fries</h2>
+                            <p>A Taste of Texas! <br> Smoked Brisket on thick-cut <br>
+							Texas Toast <br>
+							Cole Slaw <br>
+							Served with our famous thick-cut <br>
+							french fries <br>
+							$7.95
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          
+          
+    
+      <!-- footer -->
+      <footer class="py-4">
+          <div class="container">
+              <div class="footer-txt text-center">
+                  <address>10 Avenue F, Baton Rouge,la, 30803  United States</address>
+                  <a href="tel:123456789">12456789</a>
+              </div>
+          </div>
+      </footer>
+  </div>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

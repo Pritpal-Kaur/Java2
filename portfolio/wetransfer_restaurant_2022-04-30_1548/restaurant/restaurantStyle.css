@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+/* font-family: 'Miniver', cursive; */
+/* font-family: 'Open Sans Condensed', sans-serif; */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #715b3e; */
+    background-color: #0b1315 ;
+}
+.main-container{
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    background-color: #000;
+}
+header .logo{
+    color:#c9ab81;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+header .h-nav{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #715b3e;
+    background: #91919166;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+}
+header .h-nav .nav-pills .nav-link{
+    background-color: transparent !important;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 300;
+    transition: all .2s ease-in-out;   
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header .h-nav .nav-pills .nav-item ul{
+    background-color:#0f1d22;
+    
+}
+header .h-nav .nav-pills .nav-item ul li a{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 300;
+    transition: all .2s ease-in-out;   
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header .h-nav .nav-pills .nav-item ul li a:hover{
+    background-color: transparent;
+}
+header .h-nav .nav-pills .nav-link.mob{
+    display: none;
+}
+header .h-nav .nav-pills .nav-link:hover,
+header .h-nav .nav-pills .nav-item ul li a:hover{
+    font-weight: 700;
+}
+/* header .h-nav .nav-pills .nav-link:visited{
+    color:red;
+} */
+footer{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #715b3e;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #000;
+}
+footer address,a{
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#fff;
+}
+
+/* The Modal(background) */
+.modal {
+ display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 576px) {
+    header .h-nav .nav-pills .nav-link.desk{
+        display: none;
+    }
+    header .h-nav .nav-pills .nav-link.mob{
+        display: block;
+    }
+}
