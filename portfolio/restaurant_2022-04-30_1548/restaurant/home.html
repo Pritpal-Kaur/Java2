@@ -19,7 +19,8 @@ Most recent revision:
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="restaurantStyle.css" rel="stylesheet">
-    <title>Resturant</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
     <style>
       /* homepage */
       .home-container .jumbotron{
@@ -44,14 +45,14 @@ Most recent revision:
           font-size: 60px;
           transform: translate(-50%,-50%);
         }
-        .home-container .r-disc{
+        .home-container .row{
             color:#fff;
         }
-        .home-container .r-disc h6{
+        .home-container .row h5{
             font-size:20px;
             font-weight:700;
         }
-        .home-container .r-disc p{
+        .home-container .row p{
             font-size:15px;
             font-weight:400;
         }
@@ -78,18 +79,18 @@ Most recent revision:
                 <div class="container">
                     <ul class="nav nav-pills py-2">
                       <li class="nav-item">
-                        <a class="nav-link active desk" href="home.html">Home</a>
+                        <a class="nav-link active desk" href="home.html"><i class="fa" style="font-size:24px">&#xf015;</i></a>
                         <a class="nav-link active mob" href="home.html"><i class="fa-solid fa-house"></i></a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="menu.html">Menu</a></li>
+                          <li><a class="dropdown-item" href="menu.html">Main</a></li>
                           <li> <a class="dropdown-item" href="beverage.html">Beverages</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contactus.html">Contact</a>
+                        <a class="nav-link" href="contactUs.html">Contact</a>
                       </li>
                     </ul> 
                 </div>
@@ -100,7 +101,7 @@ Most recent revision:
            
             <div class="home-container">
               <div class="jumbotron">
-                <h1 class="m-0">Your resturant is opening a new location</h1>
+                <h1 class="m-0"> resturant is opening a new location</h1>
               </div>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -138,20 +139,26 @@ Most recent revision:
                     </button>
                 </div>
                 <div class="container">
-                    <div class="r-disc my-5">
-                        <h6>Restaurant Discription</h6>
+                    <div class="row mx-3">
+                        <h5>Restaurant Discription</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
                             The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
                     </div>
                 </div>
+				<div class="container">
+				<div class="row justify-content-center text-align-center">
+				<h5>Read Reviews</h5>
+				</div>
+				<a class="row justify-content-center text-align-center" target="_blank" href="Reviews.html">reviews.html</a>
+				</div>
             </div> 
            
         <!-- footer -->
         <footer class="py-4">
             <div class="container">
                 <div class="footer-txt text-center">
-                    <address>10 Avenue F, Baton Rouge,la, 30803  United States</address>
-                    <a href="tel:123456789">12456789</a>
+                    <address>10 Avenue,Baton Rouge,Surrey, 30803  Canada</address>
+                    <a href="tel:123456789">123456789</a>
                 </div>
             </div>
         </footer>
