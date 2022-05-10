@@ -11,7 +11,11 @@ function validateForm() {
   if (x == "" || x == null) {
     alert("Name must be filled out");
     return false;
-  }
+  } else {
+	alert("Thank you! We will contact you soon");
+}  
 }
+
+
 
 
