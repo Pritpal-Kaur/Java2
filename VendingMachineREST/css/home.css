@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#items {
+    text-align: justify;
+    text-align: start;
+}
+
+.col d-flex flex-column {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    border-style: none;
+}
+
+.card {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2px;
+    border-color: black;
+    border-width: 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+.d-flex {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2px;
+}
