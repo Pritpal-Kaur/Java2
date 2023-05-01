@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.pk.superherosightings.dao.OrganizationDaoDBTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! - in com.pk.superherosightings.dao.OrganizationDaoDBTest
+testDeleteOrg  Time elapsed: 0 s  <<< ERROR!
+java.lang.StackOverflowError
+
